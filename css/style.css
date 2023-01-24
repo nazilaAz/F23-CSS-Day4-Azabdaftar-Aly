@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fontsm {
+    font-size: 0.5em;
+}
+
+.fontm {
+    font-size: 1.5em;
+}
+
+.fontl {
+    font-size: 2em;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid black;
+    box-shadow: 0.1em 0.1em;
+    margin: 2px auto;
+}
+
+.logoImg {
+
+    min-width: 100px;
+    max-width: 200px;
+    width: 150px;
+    height: 200px;
+    align-self: flex-start;
+}
+
+.navbarTop {
+   /*  display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding:2px; */
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+nav>ul {
+    padding: 0;
+    align-self: center;
+    /* display: flex;
+    justify-content: center;
+    flex-flow: wrap; */
+
+}
+
+
+nav>ul>li {
+    display: inline-block;
+    width: 4em;
+    height: 2em;
+    text-align: center;
+    margin: 0 3em;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav>ul>li>a:hover {
+    /*background-color: #b7a8a8;*/
+    width: 4.2em;
+    height: 2.2em;
+    transition: ease-in-out all .4s;
+    font-weight: bold;
+    border-bottom: 0.2em solid #A77979;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.pic{
+    border: 1px solid red;
+}
